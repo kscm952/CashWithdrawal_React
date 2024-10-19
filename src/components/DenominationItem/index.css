@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.denomination-item {
+  list-style-type: none;
+}
+
+.withdraw-button {
+  height: 24px;
+  width: 130px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}

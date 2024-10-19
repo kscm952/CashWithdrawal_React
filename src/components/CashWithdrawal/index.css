@@ -1,0 +1,101 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.card-container {
+  background-color: #150b3e;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  height: 55px;
+  width: 55px;
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.letter {
+  font-size: 16px;
+  color: #7c3aed;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 34px;
+  font-weight: 200;
+}
+
+.balance-details {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.currency {
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.withdraw-container {
+  margin-top: 20px;
+}
+
+.withdraw-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.withdraw-button {
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #585076;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+}
+
+.withdraw-button:hover {
+  background-color: #7c3aed;
+}
